@@ -1,0 +1,49 @@
+To do:
+
+Bugs
+------
+
+    minor
+    1. Check with javascript if startdate is before enddate and handle errors -- FIXED
+    2. Check with javascript if starttime is before endtime and handle errors -- FIXED
+    3. The dynamic adoption of days in start- and endday fieldset must not change choosen day values, except the choosen day does not exist -- FIXED
+    4. Radio button selection for 'kind of appointment' needs to be checked for single events on page load. -- FIXED
+    5. textslider.js adds an undefined event to views, when no actual event is given -- FIXED
+    6. new unspecified bug when writing to php file -- FIXED (FOR NOW)
+    7. problem with time sorter function. Events after 17.30 are sorted into 16:00 to 17:30 timeslot -- FIXED
+    8. Remove double right border from weekview -- FIXED
+    9. Enddate is marked as date before startdate, even if month or year lie past startdate. -- FIXED
+    10. Grey out unnecessary enddate fields when selecting monthly or yearly appointment (daily, or monthly and daily) -- FIXED
+    11. Monthview returns 'undefined' when no event is present on actual day --> see textslider for this bug! -- FIXED
+    12. Check javascript end before start date check, does not seem to work right now! -- FIXED
+    13. Remove second input argument from 'setFieldInvisible()' and 'setFieldVisible()' -- FIXED
+    14. Add an alertFlag with an default value to the validation function 'validateInputElement()' in setElementsInVisible.js -- FIXED
+    15. Head of next section is displayed when editPage is loaded -- FIXED
+    16. alter size of drop boxes in editPage.php -- FIXED
+    17. avoid drop box resizing when event names are to long. (possible fix: shorten actual value and write whole string to 'title' attribute) -- FIXED
+    18. Increase size of dayview cells. --FIXED
+
+    major
+    1. Fit the textslider JS script to the weekview. -- FIXED
+    2. Fit the textslider JS script to the dayview.  -- FIXED
+    3. Rewrite the dayview in order to separate time information from the event name in form of a table view -- FIXED
+    4. ID mapping between Event and location cells needs rewrite (use of counter variable faulty) -- FIXED
+    5. Dayview returns massive error messages within each cell when no event is present on particular day -- FIXED
+    6. Edit page shows events more than once --FIXED
+    7. When enter recurrent event. Last event date seems to be behind enddate.
+    8. Javascript xml access loads link information which dont belong to event. -- FIXED
+
+Features
+-----------
+
+    1. Write PHP script which takes $_POST data and writes it to xml file -> use loadXML.php file for writing to xml file -- DONE
+        1.a. write presence check for events, to ensure that no event is written to xml file when it already exists. -- DONE
+        1.b. add a year check when adding events, otherwise function will return with error because of missing year tag -- DONE
+
+    2. Write HTML page event deletion (and editing) events which were already entered into the XML-File. -- DONE
+    3. Write single stylesheets for each view -- DONE
+    4. Adopt dimensions from source project and apply them to own views, as far as possible -- DONE
+    5. Highlight current timeslot in day- and weekview or the respective day in the monthview -- DONE
+    6. Make sure that the config formulars will only accept numbers, where only numbers are demanded
+    7. Establish a general file structure, and adopt changes to path statements -- DONE
+    8. Rename files to names which make sense

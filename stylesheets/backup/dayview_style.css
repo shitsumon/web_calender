@@ -1,0 +1,131 @@
+/*dayview_style.css*/
+body {
+    font-family:Droid Sans;
+    font-size:12px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background: #eaeaea;
+}
+
+/*Dayview*/
+.agenda{
+    border-left:1px;
+	border-right:1px;
+    	border-left-style:solid;
+	border-right-style:solid;
+    border-color:black;
+}
+
+.agenda.day {
+    width:450px;
+	text-align: center;
+    background:#00B1DB;
+    border-top:1px;
+	border-top-style:solid;
+}
+
+.agenda.body {
+    width:451px;
+    height:250px;
+	text-align: center;
+    background:#FFFFFF;
+    border-bottom:1px;
+	border-bottom-style:solid;
+    border-right:0px;
+}
+
+.headline{
+	font-weight: bold;
+	font-family:Droid Sans;
+    font-size:15px;
+}
+
+.subline{
+    float:left;
+    height: 30px;
+    font-weight: bold;
+	font-family:Droid Sans;
+    font-size:13px;
+    border-right-width:1px;
+	border-top-width:1px;
+	border-right-style:solid;
+	border-top-style:solid;
+	border-color:black;
+    line-height:20px;
+}
+
+.subline.time{
+    width: 100px;
+}
+
+.subline.event{
+    width: 248px;
+}
+
+.subline.location{
+    width: 100px;
+}
+
+.cell {
+    float:left;
+    height:30px;
+    line-height:10px;
+    text-align: center;
+    border-top-width:1px;
+    border-right-width:1px;
+	border-top-style:solid;
+        border-right-style:solid;
+	border-color:black;
+	font-family:Droid Sans;
+    font-size:12px;
+}
+
+.cell.time{
+    width: 100px;
+    font-weight: bold;
+    font-size:13px;
+    line-height:20px;
+}
+
+.cell.event{
+    width:248px;
+}
+
+.cell.location{
+    width:100px;
+}
+
+.events{
+    text-align: center;
+    line-height: 20px;
+}
+
+.events a:link{
+	color:#000000;
+	text-decoration: none
+}
+
+.events a:hover{
+	background-color: #FFFFFF;
+	color:#00B1DB;
+	text-decoration: none
+}
+
+.location{
+    text-align: center;
+    line-height: 20px;
+}
+
+#eventContainer{
+    font-size:1px;
+    color: #FFFFFF
+}
+#locationContainer{
+    font-size:1px;
+    color: #FFFFFF
+}

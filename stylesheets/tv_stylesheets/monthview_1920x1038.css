@@ -1,0 +1,109 @@
+/*monthview_style.css*/
+
+body {
+    font-family:Droid Sans;
+    font-size:12px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background: #eaeaea;
+}
+
+
+.headline{
+	font-weight: bold;
+	font-family:Droid Sans;
+    font-size:15px;
+}
+
+.monthview {
+    width:1918px;
+    height:1038px;
+    border-top:1px;
+	border-bottom:1px;
+	border-left:1px;
+	border-right:0px;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-color:black;
+}
+
+* html .monthview,
+* + html .monthview {
+    width:1918px;
+}
+
+.day {
+    float:left;
+    width:273px;
+    height:172px;
+    line-height:10px;
+    text-align: left;
+	border-right-width:1px;
+	border-top-width:1px;
+	border-right-style:solid;
+	border-top-style:solid;
+	border-color:black;
+}
+.day.headline {
+    line-height:140px;
+    text-align: center;
+    background:#00B1DB;
+    font-size:30px;
+}
+
+.day.before {
+	color:#898989;
+}
+
+.day.current {
+    font-weight:bold;
+	color:#00AEED;
+}
+.day.normal{
+    line-height:14px;
+    color:#000000;
+}
+
+.day.after {
+	color:#898989;
+}
+.events{
+	font-size:22px;
+	line-height:26px;
+    text-align:center;
+}
+.events a:link{
+	color:#000000;
+	text-decoration: none
+}
+
+.events a:hover{
+	background-color: #FFFFFF;
+	color:#00B1DB;
+	text-decoration: none
+}
+
+.pagination {
+    text-align: center;
+    height:20px;
+    line-height:20px;
+    font-weight: bold;
+    border-right:1px;
+      border-right-style:solid;
+}
+.pagination a {
+    width:20px;
+    height:20px;
+}
+
+#tagContainer{
+    font-size:  1px;
+    color:      #FFFFFF;
+}

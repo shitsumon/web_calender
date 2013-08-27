@@ -1,0 +1,147 @@
+fieldset{
+	margin-bottom:1em;
+    /*margin-left:auto;
+    margin-right:auto;*/
+	width:18em;
+	padding-top:1.5em;
+}
+
+legend{
+	border-width:1px;
+	border-style:solid;
+	border-color: #009CDA;
+	padding: 0.5em;
+	text-align: justify;
+	background: #D4ECFB;
+	font-family: droid sans, arial;
+	font-style: normal;
+	font-size: 1em;
+}
+
+#configcontainer{
+	width: 20em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ h1{
+	font-family: droid sans, arial;
+    background: #D4ECFB;
+    width: 17em;
+    border-width:1px;
+	border-style:solid;
+	border-color: #009CDA;
+    text-align:center;
+}
+
+.configelements{
+	background: #009CDA;
+	border:outset #009CDA;
+	font-family: droid sans, arial;
+	font-style: normal;
+	font-size: 1em;
+}
+
+.configelements label{
+
+}
+
+.configelements input{
+
+}
+
+#name{
+    
+}
+
+#name label{
+      position: absolute;
+    padding-top:.2em;
+    padding-left: 0.9em;
+}
+
+#name input{
+    margin-left: 6em;
+    line-height: 1em;
+}
+
+#date{
+
+}
+
+#dateelements{
+    margin-left: 2.7em;
+}
+
+#time label{
+    padding-left: 0.9em;
+}
+
+#starthour{
+    margin-left: 0.5em;
+}
+
+#endhour{
+    margin-left: 0.4em;
+}
+
+#starttime{
+   margin-left: 2.5em;
+   line-height: 1em;
+}
+
+#endtime{
+   margin-left: 2.5em; 
+   line-height: 1em;
+}
+
+#location{
+
+}
+
+#location label{
+      position: absolute;
+    padding-top:.2em;
+    padding-left: 0.9em;
+}
+
+#location input{
+    margin-left: 6em;
+    line-height: 1em;
+}
+
+#kind label{
+    margin-left: 0.9em;
+}
+
+#choice1{
+    position: absolute;
+    margin-left: 6em;
+}
+
+#choice2{
+    position: absolute;
+    margin-left: 0.75em;
+}
+
+#recurrences{
+    visibility:hidden;
+    display:none;
+}
+
+#submit{
+    font-family: droid sans, arial;
+    font-size: 20px;
+    text-align: center;
+    background: #D4ECFB;
+    border-width:1px;
+	border-style:solid;
+	border-color: #009CDA;
+    width: 14em;
+    height: 3em;
+    margin-left: 1em;
+}
+
+#submit:hover{
+    background: #FEF886;
+}

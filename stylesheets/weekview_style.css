@@ -1,0 +1,124 @@
+/*weekview_style.css*/
+body {
+    font-family:Droid Sans;
+    font-size:12px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background: #eaeaea;
+}
+
+#tagContainer{
+    font-size:1px;
+    color: #FFFFFF
+}
+
+/*weekview*/
+.weekview {
+    width:1128px;
+    border-top:1px;
+	border-bottom:1px;
+	border-left:1px;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-left-style:solid;
+}
+
+* html .weekview,
+* + html .weekview {
+    width:1130px;
+}
+
+.week{
+    width:1127px;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-right:1px;
+        border-right-style:solid;
+    border-color:black;
+}
+
+.Cell {
+    float:left;
+    width:140px;
+    height:100px;
+    line-height:10px;
+    text-align: left;
+	border-right-width:1px;
+	border-top-width:1px;
+	border-right-style:solid;
+	border-top-style:solid;
+	border-color:black;
+}
+
+.Timeslot {
+    float:left;
+    width:140px;
+    height:100px;
+    line-height:10px;
+    text-align: left;
+	border-right-width:1px;
+	border-top-width:1px;
+	border-right-style:solid;
+	border-top-style:solid;
+	border-color:black;
+    font-weight: bold;
+    font-size:  14px;
+	line-height:16px;
+    text-align: center;
+    vertical-align:middle;
+}
+
+.Timeslot.now{
+    font-weight:bold;
+	color:#00AEED;
+}
+
+.day {
+    float:left;
+    width:140px;
+    height:100px;
+    line-height:10px;
+    text-align: left;
+	border-right-width:1px;
+	border-top-width:1px;
+	border-right-style:solid;
+	border-top-style:solid;
+	border-color:black;
+}
+.day.headline {
+    line-height:80px;
+    text-align: center;
+    background:#00B1DB;
+    font-weight: bold;
+    font-size: 16;
+}
+
+.events{
+	font-size:  12px;
+	line-height:16px;
+    text-align: center;
+}
+
+.events.now{
+    font-weight:bold;
+	color:#00AEED;
+}
+
+.events a:link{
+	color:#000000;
+	text-decoration: none
+}
+
+.events a:hover{
+	background-color: #FFFFFF;
+	color:#00B1DB;
+	text-decoration: none
+}

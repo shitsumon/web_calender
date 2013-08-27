@@ -1,0 +1,142 @@
+/*dayview_style.css*/
+body {
+    font-family:Droid Sans;
+    font-size:12px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background: #eaeaea;
+}
+
+/*Dayview*/
+.agenda{
+    border-left:1px;
+	border-right:1px;
+    	border-left-style:solid;
+	border-right-style:solid;
+    border-color:black;
+}
+
+.agenda.day {
+    font-size:25px;
+    width:958px;
+    height:175;
+	text-align: center;
+    background:#00B1DB;
+    border-top:1px;
+	border-top-style:solid;
+    line-height:80px;
+}
+
+.agenda.body {
+    width:959px;
+    height:862px;
+	text-align: center;
+    background:#FFFFFF;
+    border-bottom:1px;
+	border-bottom-style:solid;
+    border-right:0px;
+}
+
+.headline{
+	font-weight: bold;
+	font-family:Droid Sans;
+    font-size:45px;
+    line-height:80px;
+}
+
+.subline{
+    float:left;
+    height: 107px;
+    font-weight: bold;
+	font-family:Droid Sans;
+    font-size:25px;
+    border-right-width:1px;
+	border-top-width:1px;
+	border-right-style:solid;
+	border-top-style:solid;
+	border-color:black;
+    line-height:90px;
+}
+
+.subline.time{
+    width: 250px;
+}
+
+.subline.event{
+    width: 456px;
+}
+
+.subline.location{
+    width: 250px;
+    line-height:90px;
+}
+
+.cell {
+    float:left;
+    height:107px;
+    line-height:75px;
+    text-align: center;
+    border-top-width:1px;
+    border-right-width:1px;
+	border-top-style:solid;
+        border-right-style:solid;
+	border-color:black;
+	font-family:Droid Sans;
+    font-size:20px;
+}
+
+.cell.time{
+    width: 250px;
+    font-weight: bold;
+}
+
+.cell.event{
+    width:456px;
+}
+
+.cell.location{
+    width:250px;
+}
+
+.events{
+    text-align: center;
+}
+
+.cell.time.now{
+    font-weight:bold;
+	color:#00AEED;
+}
+
+.events.now{
+    font-weight:bold;
+	color:#00AEED;
+}
+
+.events a:link{
+	color:#000000;
+	text-decoration: none
+}
+
+.events a:hover{
+	background-color: #FFFFFF;
+	color:#00B1DB;
+	text-decoration: none
+}
+
+.location{
+    text-align: center;
+}
+
+#eventContainer{
+    font-size:1px;
+    color: #FFFFFF
+}
+#locationContainer{
+    font-size:1px;
+    color: #FFFFFF
+}
